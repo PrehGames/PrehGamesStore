@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrehGames Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>PREHGAMES</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="#games">Jogos</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h2>PREHGAMES STORE</h2>
+        <p>Jogos criados pela PrehGames.</p>
+
+        <button onclick="document.getElementById('games').scrollIntoView()">
+            VER JOGOS
+        </button>
+    </section>
+
+    <section class="games" id="games">
+
+        <h2>🎮 Nossos Jogos</h2>
+
+        <div class="game-card">
+            <h3>Game Tycoon</h3>
+
+            <p>
+                Crie sua própria empresa de desenvolvimento de jogos.
+            </p>
+
+            <a href="games/GameTycoon/index.html" class="game-button">
+                VER JOGO
+            </a>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 PrehGames</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
